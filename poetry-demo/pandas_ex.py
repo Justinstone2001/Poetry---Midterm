@@ -1,6 +1,6 @@
 import pandas as pd
 
-df = pd.read_csv('countries.csv')
+df = pd.read_csv('populations.csv')
 
 print(df.head())
 
@@ -20,4 +20,3 @@ print(f"Average population: {average_population:.2f} million people")
 
 max_population_country = df.loc[df['Population'].idxmax()]
 print(f"\nCountry with the highest population: {max_population_country['Country']} ({max_population_country['Population']} people)")
-print("hello")
