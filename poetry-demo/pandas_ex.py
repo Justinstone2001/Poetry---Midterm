@@ -1,6 +1,6 @@
 import pandas as pd
 
-df = pd.read_csv('countries.csv')
+df = pd.read_csv('populations.csv')
 
 print(df.head())
 

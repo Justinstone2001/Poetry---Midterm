@@ -52,6 +52,3 @@ poetry add numpy
 ```sh
 poetry run python example.py
 ```
-
-
-

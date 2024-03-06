@@ -13,5 +13,4 @@ This library ensures that all team members have the correct library versions
 installed to run the code and facilitates the process of getting
 everyone's machine up to date. 
 changes
-ur nice
 '''
