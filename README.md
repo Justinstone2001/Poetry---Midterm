@@ -1,16 +1,57 @@
-# Poetry---Midterm
-<!-- Hello! -->
-### 
-Authors: Justin Stone, Owen Guglielmino
+# Poetry - Midterm
 
-Library: Poetry 
+## Authors
+- Justin Stone
+- Owen Guglielmino
 
-URL: https://python-poetry.org/docs/ 
+## About Poetry
 
-Description: Poetry is a package to help developers manage the 
-necessary code dependencies needed to run and access code, regardless
-of what is installed on their own machine. 
+[Poetry](https://python-poetry.org/docs/) is a tool designed to help developers manage project dependencies efficiently. It ensures that all team members have the correct versions of libraries installed to run the code, facilitating a uniform development environment across different machines. 
 
-This library ensures that all team members have the correct library versions 
-installed to run the code and facilitates the process of getting
-everyone's machine up to date. 
+### Key Features
+- **Dependency Management:** Simplifies the process of managing project dependencies.
+- **Environment Consistency:** Guarantees that all contributors work in the same environment.
+- **Easy Installation:** Streamlines the installation of project dependencies and tools.
+
+### Installation
+
+To install Poetry, you can use `pipx` which is a tool for installing and running Python applications in isolated environments. If you don't have `pipx` installed, you can install it via pip:
+
+### Poetry Demo 
+[![Watch the video](https://img.youtube.com/vi/3ypYZ_wsTW8/hqdefault.jpg)](https://youtu.be/3ypYZ_wsTW8?si=IsoUMy1sQHqLyscY)
+
+### Installation
+
+```sh
+pip install pipx
+pipx ensurepath
+pipx install poetry
+```
+### Usage 
+
+```sh
+poetry new project_name
+cd project_name
+```
+
+### New Environment
+
+```sh
+poetry shell
+```
+
+### Add Dependencies
+
+```sh
+poetry add pandas
+poetry add numpy
+```
+
+### Run Code
+
+```sh
+poetry run python example.py
+```
+
+
+
