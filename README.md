@@ -52,3 +52,16 @@ poetry add numpy
 ```sh
 poetry run python example.py
 ```
+
+![slide 1](PoetryMidtermSlides/Slide1.png)
+![slide 1](PoetryMidtermSlides/Slide2.png)
+![slide 1](PoetryMidtermSlides/Slide3.png)
+![slide 1](PoetryMidtermSlides/Slide4.png)
+![slide 1](PoetryMidtermSlides/Slide5.png)
+![slide 1](PoetryMidtermSlides/Slide6.png)
+![slide 1](PoetryMidtermSlides/Slide7.png)
+![slide 1](PoetryMidtermSlides/Slide8.png)
+![slide 1](PoetryMidtermSlides/Slide9.png)
+![slide 1](PoetryMidtermSlides/Slide10.png)
+![slide 1](PoetryMidtermSlides/Slide11.png)
+![slide 1](PoetryMidtermSlides/Slide12.png)
